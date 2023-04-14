@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = codePinkAquila
+build_property.RootNamespace = codePinkAquila
+build_property.ProjectDir = /Users/aquilaolose/Desktop/codePinkAquila/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/aquilaolose/Desktop/codePinkAquila
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Org/Laelynn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JnL0xhZWx5bm4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Product/AddOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGRPbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Product/AllProd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BbGxQcm9kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Product/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Product/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Product/ViewOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9WaWV3T25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/User/Landing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9MYW5kaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/User/LogReg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dSZWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/User/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/User/_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aquilaolose/Desktop/codePinkAquila/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ofdwpe7xtv

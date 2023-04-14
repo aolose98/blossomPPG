@@ -1,0 +1,33 @@
+@model User
+
+<h3 class="text-center">Please register to join our organization!</h3>
+<hr />
+
+<form asp-action="Register" asp-controller="User" method="Post">
+    <div class="mb-3">
+        <label asp-for="FirstName">First Name:</label>
+        <span class="text-danger font-weight-bold" asp-validation-for="FirstName"></span>
+        <input class="form-control" asp-for="FirstName">
+    </div>
+    <div class="mb-3">
+        <label asp-for="LastName">Last Name:</label>
+        <span class="text-danger font-weight-bold" asp-validation-for="LastName"></span>
+        <input class="form-control" asp-for="LastName">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email">Email:</label>
+        <span class="text-danger font-weight-bold" asp-validation-for="Email"></span>
+        <input class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password">Password:</label>
+        <span class="text-danger font-weight-bold" asp-validation-for="Password"></span>
+        <input class="form-control" asp-for="Password">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Confirm">Confirm PW:</label>
+        <input class="form-control" asp-for="Confirm">
+        <span class="text-danger font-weight-bold" asp-validation-for="Confirm"></span>
+    </div>
+    <button class="button-56" role="button">Register</button>
+</form>

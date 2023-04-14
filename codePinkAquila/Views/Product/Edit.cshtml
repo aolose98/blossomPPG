@@ -1,0 +1,84 @@
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CodePink</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="CodePink">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="User"
+                        asp-action="LogReg">Login/Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Org" asp-action="Laelynn">Laelynn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@model Product
+
+
+<h1 class="viewPup">Edit Product</h1>
+<form class="shadow p-3" action="/codepink/updateProduct/@Model.ProductId" method="Post">
+
+    <div class="mb-3">
+        <label asp-for="Name">Product Name :</label>
+        <span asp-validation-for="Name" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Category">Category :</label>
+        <span asp-validation-for="Category" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Category">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Price">Price :</label>
+        <span asp-validation-for="Price" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Price">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Img1">First Img :</label>
+        <span asp-validation-for="Img1" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Img1">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Img2">Second Img :</label>
+        <span asp-validation-for="Img2" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Img2">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Img3">Third Img :</label>
+        <span asp-validation-for="Img3" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Img3">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Img4">Fourth Img :</label>
+        <span asp-validation-for="Img4" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Img4">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Img5">Fifth Img :</label>
+        <span asp-validation-for="Img5" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Img5">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description">Description of product :</label>
+        <span asp-validation-for="Description" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Description">
+    </div>
+    <button class="button-56">Update Product</button>
+</form>
